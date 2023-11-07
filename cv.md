@@ -3,7 +3,7 @@
 * Telegram: [@volhayurchanka](https://t.me/volhayurchanka)
 * GitHub: [OlgaYurch](https://github.com/OlgaYurch)
 * Discord: [olga.yurch](https://discordapp.com/users/1165714898853048361/)
-* Email: volha@yurchanka.ru
+* Email: <volha@yurchanka.ru>
 
 ## About Me
 I'm from Minsk, Belarus. I work in laboratory now. But I want to learn something new for myself and maybe change jobs, so I decided to start with courses at Rolling Scopes School.
