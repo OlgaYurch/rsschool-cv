@@ -16,7 +16,7 @@ I'm from Minsk, Belarus. I work in laboratory now. But I want to learn something
 
 ## Code Example
 *DESCRIPTION: You need a function that can transform a number (integer) into a string.*
-```
+```javascript
 function numberToString(num) {
   return num.toString();
 }
