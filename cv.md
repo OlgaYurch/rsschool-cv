@@ -16,7 +16,7 @@ I'm from Minsk, Belarus. I work in laboratory now. But I want to learn something
 
 ## Code Example
 *DESCRIPTION: You need a function that can transform a number (integer) into a string.*
-``` 
+```
 function numberToString(num) {
   return num.toString();
 }
@@ -24,6 +24,10 @@ function numberToString(num) {
 
 ## Experience
 I don’t have experience in front-end development, but I hope to get it at RS School.
+
+* **My first project - My CV**
+    + [My CV in Markdown](https://OlgaYurch.github.io/rsschool-cv/cv)
+    + [My CV in HTML&CSS](https://OlgaYurch.github.io/rsschool-cv/)
 
 ## Education
 * **University:** BSTU (Minsk, Belarus), Engineer
