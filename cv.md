@@ -1,7 +1,29 @@
 # Volha Yurchanka
 ## Contacts
+* Telegram: [@volhayurchanka](https://t.me/volhayurchanka)
+* Email: volha@yurchanka.ru
+* GitHub: [OlgaYurch](https://github.com/OlgaYurch)
+
 ## About Me
+I'm from Minsk, Belarus. I work in laboratory now. But I want to learn something new for myself and maybe change jobs, so I decided to start with courses at Rolling Scopes School.
+
 ## Skills
+* HTML
+* CSS
+* Git
+* JavaScript (beginner)
+
 ## Code Example
+## Experience
+I don’t have experience in front-end development, but I hope to get it at RS School.
+
 ## Education
+* **University:** BSTU (Minsk, Belarus), Engineer
+* **Courses:** 
+    + Skillbox: online course "Introduction to programming" (2022)
+    + RS School, Front End, Stage 1 (now)
+
 ## Language
+* English - A1
+* Russian and Belarusian - native speaker
+* German - with dictionary
