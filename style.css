@@ -13,6 +13,29 @@ h1 {
     margin-bottom: 10px;
     font-size: 32px;
 }
+a {
+  text-decoration: none;
+  color: #007180;
+}
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  transition: .5ms;
+  color: #d17600;
+  font-weight: bold;
+  font-stretch: 1.2;
+}
+nav {
+  max-width: 90%;
+}
+.nav-ul{
+  display: flex;
+  flex-direction: row;
+}
+.nav-li {
+  list-style: none;
+  font-size: 20px;
+}
 h2 {
     margin-top: 15px;
     margin-bottom: 10px;
