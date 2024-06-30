@@ -63,3 +63,14 @@ p {
 li {
   line-height: 20px;
 }
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px auto;
+}
+.footer-text {
+  font-size: 24px;
+}
+.footer-img {
+  max-height: 35px;
+}
