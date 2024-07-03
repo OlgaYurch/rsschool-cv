@@ -13,6 +13,7 @@ header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
+  gap: 5%;
 }
 .header-img {
   max-width: 20%;
@@ -37,7 +38,6 @@ a:hover {
   font-stretch: 1.2;
 }
 nav {
-  max-width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
