@@ -18,9 +18,11 @@ header {
   max-width: 20%;
 }
 h1 {
+  display: flex;
+  align-items: center;
   margin-bottom: 10px;
   font-size: 36px;
-  max-width: 30%;
+  max-width: 15%;
 }
 a {
   text-decoration: none;
