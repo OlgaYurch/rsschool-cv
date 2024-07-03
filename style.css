@@ -36,7 +36,7 @@ h1 {
 }
 a {
   text-decoration: none;
-  color: #007180;
+  color: #0195a8;
   font-weight: bold;
 }
 a:hover {
@@ -64,7 +64,7 @@ nav {
   font-size: 22px;
 }
 section {
-  border-bottom: #007180 2px solid;
+  border-bottom: #0195a8 2px solid;
   padding: 10px 10px;
 }
 h2 {
