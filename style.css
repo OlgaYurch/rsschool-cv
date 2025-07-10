@@ -135,6 +135,50 @@ body {
   max-height: 35px;
 }
 
+@media (max-width: 650px) {
+  .header {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px 40px;
+  }
+  .cv-title::after {
+    width: 80%;
+  }
+  .nav {
+    width: 95%;
+  }
+  .nav-list {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0;
+    margin: 0 auto;
+    gap: 10px;
+  }
+  .nav-item:nth-child(2) {
+    grid-column: 3;
+  }
+  .nav-item:nth-child(3) {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .nav-item:nth-child(5) {
+    grid-row: 1;
+    grid-column: 3;
+  }
+  .nav-item:nth-child(6) {
+    grid-row: 2;
+    grid-column: 1;
+  }
+  .nav-item:nth-child(7) {
+    grid-row: 2;
+    grid-column: 2;
+  }
+  .nav-item:nth-child(4) {
+    grid-row: 3;
+    grid-column: 2;
+  }
+}
+
 @media (hover:hover) {
   .nav-link:hover,
   .link:hover {
