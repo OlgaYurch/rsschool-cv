@@ -1,102 +1,155 @@
+:root {
+  --color-bg: #1b1b1b;
+  --color-text: #faebd7;
+  --color-link: #00899b;
+  --color-link-hover: #d17600;
+  --color-code-text: #e2e0e0;
+  --color-code-bg: #505050;
+  --color-link-pale: #606060;
+  --color-link-pale-hover: #878787;
+}
+
 @font-face {
   font-family: "JosefinSans";
   src: url(assets/fonts/JosefinSans.ttf);
 }
 * {
   box-sizing: border-box;
-  margin: 0 auto;
+  margin: 0;
   font-family: 'JosefinSans', sans-serif;
-  font-size: 16px;
+  font-size: 22px;
   color: #faebd7;
+  transition: 0.5ms;
 }
 body {
-  width: 800px;
-  background-color: #1b1b1b;
-  padding: 20px;
-  box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.2);
-  border-radius: 10px;
+  background-color: var(--color-bg);
 }
-header {
+.body-wrapper {
+  max-width: 1024px;
+  box-shadow: 0px 0px 8px 5px rgba(255, 255, 255, 0.1);
+  margin: 0 auto;
+}
+.header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px;
-  gap: 5%;
-  box-shadow: 0px 0px 8px 8px rgba(255, 255, 255, 0.2);
-  border-radius: 10px;
+  align-items: center;
+  gap: 7%;
+  box-shadow: 0px 0px 12px 5px rgba(255, 255, 255, 0.1);
+  padding: 20px 10px;
 }
 .header-img {
   max-width: 20%;
+  height: auto;
+  object-fit: cover;
+  mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 30%, rgba(0,0,0,0) 100%);
 }
-h1 {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
+.cv-title {
   font-size: 36px;
-  max-width: 15%;
+  position: relative;
 }
-a {
-  text-decoration: none;
-  color: #0195a8;
-  font-weight: bold;
+.cv-title::after {
+  content: '';
+  background-color: var(--color-text);
+  height: 2px;
+  width: 120%;
+  position: absolute;
+  top: 31px;
+  left: 18px;
 }
-a:hover {
-  cursor: pointer;
-  text-decoration: underline;
-  transition: .5ms;
-  color: #d17600;
-  font-weight: bold;
-  font-stretch: 1.2;
+.nav {
+  width: 90%;
 }
-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.nav-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px 5px;
+  width: max-content;
+  margin-left: auto;
 }
-.nav-ul{
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 90%;
-  gap: 5%;
-  justify-content: center;
-}
-.nav-li {
+.nav-item {
   list-style: none;
+}
+.nav-item-last {
+  grid-column: 2;
+}
+.nav-link {
+  text-decoration: none;
+  color: var(--color-link);
+  font-weight: bold;
+  line-height: 24px;
   font-size: 22px;
 }
-section {
-  border-bottom: #0195a8 2px solid;
-  padding: 10px 10px;
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 4%;
+  padding: 20px 10px;
 }
-h2 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 24px;
+.section {
+  padding: 15px 10px;
 }
-p {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  line-height: 20px;
+.section-title {
+  font-size: 28px;
+  position: relative;
+  padding-bottom: 30px;
+  letter-spacing: 0.03em;
 }
-li {
-  line-height: 20px;
+.section-title::after {
+  content: '';
+  background-color: var(--color-text);
+  height: 2px;
+  width: 40%;
+  position: absolute;
+  top: 32px;
+  left: 20px;
 }
-code {
+.link {
+  text-decoration: none;
+  color: var(--color-link);
+  font-weight: bold;
+  line-height: 24px;
+}
+.link-pale {
+  color: var(--color-link-pale);
+  text-decoration: none;
+}
+.text {
+  line-height: 1.3em;
+}
+.code {
   display: block;
-  background-color: #505050;
-  border-radius: 3px;
+  background-color: var(--color-code-bg);
+  border-radius: 5px;
   font-family: courier, monospace;
   padding: 0 3px;
-  color: #e2e0e0;
+  color: var(--color-code-text);
 }
-footer {
+.footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px;
-}
-.footer-text {
-  font-size: 18px;
+  box-shadow: 0px 0px 12px 5px rgba(255, 255, 255, 0.1);
+  padding: 10px 10px;
 }
 .footer-img {
   max-height: 35px;
+}
+
+@media (hover:hover) {
+  .nav-link:hover,
+  .link:hover {
+    cursor: pointer;
+    color: var(--color-link-hover);
+    font-stretch: 1.4;
+  }
+  .link-pale:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    font-stretch: 1.4;
+    color: var(--color-link-pale-hover);
+  }
+  .footer-img:hover {
+    cursor: pointer;
+    transform: scale(110%);
+  }
 }
