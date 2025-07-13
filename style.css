@@ -13,6 +13,9 @@
   font-family: "JosefinSans";
   src: url(assets/fonts/JosefinSans.ttf);
 }
+html {
+  scroll-behavior: smooth;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -135,7 +138,7 @@ body {
   max-height: 35px;
 }
 
-@media (max-width: 650px) {
+@media screen and (max-width: 805px) {
   .header {
     flex-wrap: wrap;
     justify-content: center;
