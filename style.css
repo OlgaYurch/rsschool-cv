@@ -19,7 +19,7 @@
   font-family: 'JosefinSans', sans-serif;
   font-size: 22px;
   color: #faebd7;
-  transition: 0.5ms;
+  transition: 5ms;
 }
 body {
   background-color: var(--color-bg);
@@ -183,6 +183,9 @@ body {
 }
 
 @media (hover:hover) {
+  *:hover {
+    transition: 5ms;
+  }
   .nav-link:hover,
   .link:hover {
     cursor: pointer;
